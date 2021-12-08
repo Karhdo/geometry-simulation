@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Chung */
+.final_project {
+    position: relative;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 46px;
+    background-color: #15151e;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__title-link,
+.navbar__item-link {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__title-letter {
+    font-size: 17px;
+    font-weight: 500;
+    list-style: none;
+    line-height: 46px;
+    margin-left: 40px;
+}
+
+.navbar__list {
+    list-style-type: none;
+}
+
+.navbar__list,
+.navbar__title,
+.navbar__item,
+.navbar__title-link,
+.navbar__item-link {
+    display: inline-block;
+}
+
+.navbar__list {
+    line-height: 46px;
+    margin-right: 8px;
+}
+
+.navbar__item {
+    position: relative;
+}
+
+.navbar__item-link {
+    font-size: 17px;
+    padding: 0 32px;
+    width: 100%;
+}
+
+.navbar__item:hover .navbar__item-link {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+}
+
+.navbar__item:hover .navbar__subnav {
+    display: block;
+}
+
+.fa-sort-down:before {
+    margin: 3px;
+    font-size: 20px;
+}
+
+.navbar__subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #15151e;
+    box-shadow: 0 0 4px rgb(255 255 255 / 30%);
+    list-style-type: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    animation: FadeIn ease 1s;
+}
+
+.navbar__subnav_one {
+    width: 154px;
+}
+.navbar__subnav_two {
+    min-width: 139px;
+}
+
+.navbar__subnav_three {
+    min-width: 124px;
+}
+
+.navbar__subnav_four {
+    min-width: 159px;
+}
+
+.navbar__subnav-item {
+    height: 30px;
+    position: relative;
+}
+
+.subnav-item__link {
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    line-height: 30px;
+    padding: 0 16px;
+    font-size: 15px;
+}
+
+.navbar__subnav-item:hover .subnav-item__link {
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+}
+
+.navbar__subnav-item:last-child:hover .subnav-item__link {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* WebGL */
+canvas {
+    position: relative;
+    top: 46px;
+}
+
+.WebGL__controls {
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 12px;
+    width: 170px;
+    height: 190px;
+}
+
+.controls-object,
+.controls-music {
+    display: flex;
+    padding: 8px 0;
+}
+
+.controls-btn,
+.controls-music-btn {
+    /* margin: 16px; */
+    width: 32px;
+    height: 32px;
+    background-color: #15151e;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    /* box-shadow: 0 0 12px 4px rgb(255 255 255 / 30%); */
+}
+
+.controls-btn:hover,
+.controls-music-btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.controls-btn i,
+.controls-music-btn i {
+    line-height: 32px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.controls-btn:hover i,
+.controls-music-btn:hover i {
+    line-height: 32px;
+    font-size: 12px;
+    color: #15151e;
+}
+
+.controls-btn.active,
+.controls-music-btn.active {
+    background-color: #fff;
+}
+
+.controls-btn.active i,
+.controls-music-btn.active i {
+    color: #15151e;
+}
+
+.controls-desc,
+.controls-music-desc {
+    color: #fff;
+    line-height: 32px;
+    margin-left: 8px;
+}
+
+/* .final_project-audio {
+    display: none;
+} */
+
+#GUI {
+    position: relative;
+    top: 46px;
+}
