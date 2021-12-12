@@ -373,7 +373,7 @@ function getPointLightHelper(pointLight) {
 function getBackgroundAllPoints() {
     const vertices = [];
 
-    for (let i = 0; i < 200000; i++) {
+    for (let i = 0; i < 100000; i++) {
         const x = THREE.MathUtils.randFloatSpread(2000);
         const y = THREE.MathUtils.randFloatSpread(2000);
         const z = THREE.MathUtils.randFloatSpread(2000);
