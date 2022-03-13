@@ -2,7 +2,7 @@
 
 # I. Hướng dẫn cài đặt:
 
-B1: Cài đặt Visual Studio Code (https://code.visualstudio.com/download).
+B1: Cài đặt [Visual Studio Code](https://code.visualstudio.com/download).
 
 B2: Cài đặt Live Sever extension tại Extension trong Visual Studio Code.
 
