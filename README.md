@@ -1,5 +1,4 @@
 <h1 align="center">Computer Graphics in UIT</h1>
-<h2 align="center">HƯỚNG DẪN CÀI ĐẶT VÀ SỬ DỤNG ĐỒ ÁN</h2>
 
 # I. Hướng dẫn cài đặt:
 
