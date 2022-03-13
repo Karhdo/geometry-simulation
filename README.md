@@ -22,3 +22,5 @@ Tại bên phải của màn hình, là bộ điều khiển dat.GUI giúp đi�
 - Để thuận tiện cho việc theo dõi cách sử dụng đồ án, người dùng có thể theo dõi video demo mà nhóm đã quay sẵn tại đây: https://www.youtube.com/watch?v=J6KY160_foU.
 
   <p align='center'><img src='https://github.com/trong-khanh-1109/CS105.M11.KHCL/blob/188e42b7eaf16d825bd5b07e650d2890a83cc767/Image/final_project.gif'></p>
+
+<p align='center'><b>Copyright © 2021 - Đỗ Trọng Khánh</b></p>
