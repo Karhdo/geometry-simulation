@@ -6,7 +6,7 @@
 
 - B2: Cài đặt Live Sever extension tại Extension trong Visual Studio Code.
 
-- Hoặc click vào link sau để sử dụng ngay: https://trong-khanh-1109.github.io/Project_Computer-Graphics/
+- Hoặc click vào link sau để sử dụng ngay: https://karhdo.github.io/Project_Computer-Graphics/
 
 # II. Hướng dẫn sử dụng:
 
