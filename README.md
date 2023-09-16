@@ -6,7 +6,7 @@
 
 - B2: Cài đặt Live Sever extension tại Extension trong Visual Studio Code.
 
-- Hoặc click vào link sau để sử dụng ngay: https://karhdo.github.io/simulate-geometry/
+- Hoặc click vào link sau để sử dụng ngay: https://karhdo.github.io/geometry-simulation
 
 # II. Hướng dẫn sử dụng:
 
