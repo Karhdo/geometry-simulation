@@ -1,4 +1,4 @@
-<h1 align="center">Computer Graphics in UIT</h1>
+<h1 align="center">Simulate Basic Geometry</h1>
 
 # I. Hướng dẫn cài đặt:
 
@@ -6,7 +6,7 @@
 
 - B2: Cài đặt Live Sever extension tại Extension trong Visual Studio Code.
 
-- Hoặc click vào link sau để sử dụng ngay: https://karhdo.github.io/Project_Computer-Graphics/
+- Hoặc click vào link sau để sử dụng ngay: https://karhdo.github.io/simulate-geometry/
 
 # II. Hướng dẫn sử dụng:
 
